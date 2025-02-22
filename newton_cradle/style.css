@@ -16,8 +16,8 @@ body{
   width: 50rem;
   height: 50rem;
   background-color: transparent;
-  border-top: 1rem solid #865dff;
-  border-radius: 0.5rem;
+  border-top: 2rem solid #865dff;
+  border-radius: .5rem;
   display: flex;
   justify-content: center;
   gap: 4.5rem;
@@ -42,7 +42,7 @@ div{
 }
 
 .cradle div:first-child{
-  animation: left-swing 2s linear infinite;
+  animation: left-swing 2s linear 1s infinite;
   transform-origin: top left;
 }
 
@@ -80,3 +80,4 @@ div{
     transform: rotate(0deg);
   }
 }
+
